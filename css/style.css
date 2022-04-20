@@ -1,0 +1,146 @@
+@import url('http://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  color: #0A3871;
+  background: #F3F5FC;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.logo {
+  position: absolute;
+  left: 2.17%;
+  margin-top: 2.5%;
+  top: 0%;
+  bottom: 0%;
+  width: 5%;
+
+}
+
+.input-text {
+  position: absolute;
+  width: 500px;
+  height: 48px;
+  left: 240px;
+  top: 98px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+
+
+
+}
+
+textarea {
+  color: #0A3871;
+  background: none;
+  border: none;
+  resize: none;
+
+}
+
+::placeholder {
+  color: #0A3871;
+}
+
+.ajuste{
+  margin-top:220px;
+}
+
+button {
+  font-weight: 350;
+  font-size: 14px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width: 90%;
+  height: 67px;
+  border-radius: 24px;
+  padding:12px;
+  background: #0A3871;
+  color: #FFFFFF;
+  
+}
+
+.button2 {
+  font-weight: 350;
+  font-size: 14px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width: 90%;
+  height: 67px;
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding:12px;
+  color: #0A3871;
+}
+button:disable{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color:#666666;
+  cursor:not-allowed;
+}
+.whitespace {
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  left: 900px;
+  top: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+
+}
+
+.muneco{
+  width: 80%;
+  height: 70%;
+  padding-top: 17px;
+  padding-left: 50px;
+  display:block;
+  
+  
+
+}
+.out-text h3{
+  padding-top:10px;
+ padding-right:70px;
+ padding-left:90px;
+ text-align:center;
+ font-size:24px;
+ font-weight: bold;
+ 
+}
+.out-text p{
+  padding-top:2px;
+ padding-right:50px;
+ padding-left:60px;
+ text-align:center;
+ font-size: 16px;
+}
+.out-text-msg textarea{
+  
+  width: 450px;
+  height: 550px;
+  left: 900px;
+  top: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  display:flex;
+  
+}
+.out-text-msg button{
+  width:50%;
+  margin-left:120px;
+  margin-top:8px;
+  background: #FFFFFF;
+  color: #0A3871;
+}
+.hidden{
+  display:none;
+}
